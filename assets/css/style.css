@@ -95,6 +95,11 @@ p {
     border-top: 3px solid var(--Blue);
 }
 
+/* -- Cards shadow -- */
+#card-supervisor, #card-team_builder, #card-karma, #card-calculator {
+    box-shadow: 3px 3px 10px var(--Grayish-Blue), -3px 0 10px var(--Grayish-Blue);
+}
+
 /* -- Footer signature -- */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
