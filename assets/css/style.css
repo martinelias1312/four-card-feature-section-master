@@ -8,9 +8,16 @@
     --Very-Dark-Blue: hsl(234, 12%, 34%);
     --Grayish-Blue: hsl(229, 6%, 66%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: #fff;
 
-    --Main-Font-size: 15px;
+    --Main-Font-size: 0.9375em; /* 15px */
     --Main-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: var(--Main-Font-size);
+    font-family: var(--Main-font-family);
+    background: var(--Very-Light-Gray);
 }
 
 /* -- Footer signature -- */
