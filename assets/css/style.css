@@ -78,12 +78,11 @@ p {
 /* -- Supervisor Card -- */
 #card-supervisor {
     border-top: 3px solid var(--Cyan);
-
 }
 
 /* -- Team Builder Card -- */
 #card-team_builder {
-   border-top: 3px solid var(--Red);
+    border-top: 3px solid var(--Red);
 }
 
 /* -- Karma Card -- */
@@ -104,5 +103,32 @@ p {
 @media screen and ( min-width: 700px ) {
     .cards-wrapper {
         grid-template-columns: 21.25em 21.25em;    
-    }          
+    }  
+    
+    h1, .header-heading {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and ( min-width:1300px ) {
+    .cards-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+
+    #card-supervisor {
+        grid-row: 2 / 4;
+    }
+
+    #card-team_builder {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+    #card-karma {
+        grid-area: 3 / 2 / 5 / 3; 
+    }
+    
+    #card-calculator {
+        grid-area: 2 / 3 / 4 / 4;
+    }
 }
