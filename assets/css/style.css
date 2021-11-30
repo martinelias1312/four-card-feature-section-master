@@ -18,6 +18,78 @@ body {
     font-size: var(--Main-Font-size);
     font-family: var(--Main-font-family);
     background: var(--Very-Light-Gray);
+    line-height: 1.5;
+}
+
+main {
+    margin: 3em auto;
+    max-width: 85%;
+}
+
+/* -- Header section -- */
+#header {
+    text-align: center;
+}
+
+.header-heading {
+    font-weight: 200;
+}
+
+h1, h2 {
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+
+/* -- Cards wrapper + Card settings -- */
+.card {
+    max-width: 21.25em;
+    background: var(--White);
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+}
+
+.card p {
+    margin: 0.3em 0 2em 0;
+}
+
+.cards-wrapper {
+    margin: 4em 0;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* -- Supervisor Card -- */
+#card-supervisor {
+    border-top: 3px solid var(--Cyan);
+
+}
+
+/* -- Team Builder Card -- */
+#card-team_builder {
+   border-top: 3px solid var(--Red);
+}
+
+/* -- Karma Card -- */
+#card-karma {
+    border-top: 3px solid var(--Orange);
+}
+
+/* -- Calculator Card -- */
+#card-calculator {
+    border-top: 3px solid var(--Blue);
 }
 
 /* -- Footer signature -- */
